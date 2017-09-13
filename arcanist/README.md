@@ -4,7 +4,7 @@ Dockerized Arcanist
 [Arcanist](https://github.com/phacility/arcanist) is a CLI for [Phabricator](https://www.phacility.com/phabricator/).
 It is quite tricky to install, specially on local (MacOS) system.
 
-Here you can find Docker file and bash script to call arc like is it installed locally.
+Here you can find Docker file and bash script to call arc like it is installed locally.
 
 Security declaimer
 ------------------
