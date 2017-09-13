@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#TODO: DON'T MOUNT WHOLE HOME DIR!
+USER_HOME=$(realpath ~/)
+WORK_DIR=${PWD}
+docker run -it --rm -v $WORK_DIR:/code -v $USER_HOME:/root/ tools/arc arc $@
